@@ -29,3 +29,32 @@ a.red {
     text-align: center;
     padding: 100px 0;
 }
+
+#menuitems{
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+}
+
+#shoppingcartimage{
+    border-radius: 50%;
+    height:40px;
+}
+
+#shoppingcartbutton{
+    border-radius: 50%;
+    height:50px;
+}
+
+.shoppinglist {
+    float: right;
+    width: 25%;
+    border-radius: 4px;
+}
+
+.menubulletpoints {
+    list-style-type: circle;
+    float: left;
+}
