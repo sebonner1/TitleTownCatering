@@ -20,8 +20,11 @@ a.red {
 }
 
 .banner{
-    background-color: #130066;
+    background-color: #ffffff;
     color: #990000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, fantasy;
+    font-weight: bold;
+    font-size: 100px;
     margin-top: 50px;
     text-align: center;
     padding: 100px 0;
