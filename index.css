@@ -22,7 +22,11 @@ a.red {
 .banner{
     background-color: #ffffff;
     color: #990000;
+<<<<<<< HEAD
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,fantasy;
+=======
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, fantasy;
+>>>>>>> katherine
     font-weight: bold;
     font-size: 100px;
     margin-top: 50px;
