@@ -52,6 +52,8 @@ a.red {
     float: right;
     width: 25%;
     border-radius: 4px;
+    background-color: grey;
+    text-align: center;
 }
 
 .menubulletpoints {
