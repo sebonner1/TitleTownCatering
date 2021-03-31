@@ -1,5 +1,5 @@
 .navbar{
-    background-color: white;
+    background-color: gray;
     position: fixed;
     top: 0;
     width: 100%;
@@ -16,12 +16,12 @@
 }
 
 a.red {
-    color: red;
+    color: #990000;
 }
 
 .banner{
     background-color: #ffffff;
-    color: white;
+    color: #990000;
     margin-top: 50px;
     text-align: center;
     padding: 100px 0;
