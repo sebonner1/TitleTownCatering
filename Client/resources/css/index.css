@@ -62,3 +62,13 @@ a.red {
     float: left;
     text-align: left;
 }
+
+#checkoutbutton{
+    background-color: #660000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: black;
+    cursor: pointer;
+    width: 100%;
+}
