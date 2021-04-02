@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "byOBBN160hYJH23czSUGeTxQ2Er1zEbpQ++yuNypghfdIL4Wt/RK5vYUyjs2RQDJ1igKH1I/HdZGcksaWDVVMg==",
+  "dgSpecHash": "nQTwQCGUTpXpXBsVFyuCmxMeCvMhfWchtlQ6535uz3NJ02AhldLXOh2PsnXglfC8SRw4FnuBzxNE9lx891McpA==",
   "success": true,
-  "projectFilePath": "/Users/katherine/TitleTownCatering/TitleTownCatering.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/williambonner/Source/repos/TitleTownCatering/TitleTownCatering.csproj",
+  "expectedPackageFiles": [
+    "/Users/williambonner/.nuget/packages/stub.system.data.sqlite.core.netstandard/1.0.113.2/stub.system.data.sqlite.core.netstandard.1.0.113.2.nupkg.sha512",
+    "/Users/williambonner/.nuget/packages/system.data.sqlite.core/1.0.113.7/system.data.sqlite.core.1.0.113.7.nupkg.sha512"
+  ],
   "logs": []
 }

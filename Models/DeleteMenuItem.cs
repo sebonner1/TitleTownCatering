@@ -1,10 +1,12 @@
+using System.Data.SQLite;
+
 namespace TitleTownCatering.Models
 {
-    public class DeleteMenuItem
+    public class DeleteMenuItem : IDeleteMenuItems
     {
         public void DeleteMenuItem(int itemID)
         {
-            string cs = @"URI=/Users/williambonner/Source/repos/pa4-sebonner1-1/posts.db";
+            string cs = @"URI=/Users/williambonner/Source/repos/TitleTownCatering/menu.db";
             using var con = new SQLiteConnection(cs);
             con.Open();
 
