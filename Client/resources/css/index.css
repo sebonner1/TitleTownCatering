@@ -46,6 +46,7 @@ a.red {
 #shoppingcartbutton{
     border-radius: 50%;
     height:50px;
+    text-align: center;
 }
 
 .shoppinglist {
@@ -60,7 +61,7 @@ a.red {
 .menubulletpoints {
     list-style-type: circle;
     float: left;
-    text-align: left;
+    text-align: center;
 }
 
 #checkoutbutton{
@@ -71,4 +72,5 @@ a.red {
     border: black;
     cursor: pointer;
     width: 100%;
+    text-align: center;
 }
