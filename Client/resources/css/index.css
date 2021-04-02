@@ -1,0 +1,74 @@
+.navbar{
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li{
+    display: inline;
+    padding:20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+a.red {
+    color: #990000;
+}
+
+.banner{
+    background-color: #ffffff;
+    color: #990000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,fantasy;
+    font-weight: bold;
+    font-size: 100px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#menuitems{
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 25%;
+}
+
+#shoppingcartimage{
+    border-radius: 50%;
+    height:40px;
+}
+
+#shoppingcartbutton{
+    border-radius: 50%;
+    height:50px;
+}
+
+.shoppinglist {
+    float: right;
+    width: 30%;
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.menubulletpoints {
+    list-style-type: circle;
+    float: left;
+    text-align: left;
+}
+
+#checkoutbutton{
+    background-color: #660000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: black;
+    cursor: pointer;
+    width: 100%;
+}

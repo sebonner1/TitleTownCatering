@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title Town Catering Company</title>
     <title>Title Town Catering</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="/Users/williambonner/Source/repos/TitleTownCatering/Client/resources/css/index.css">
 </head>
 <body>
     <!--Banner Section-->
@@ -14,13 +14,66 @@
         <h1>Title Town Catering</h1>
         <h2>Menu</h2>
     </div>
+
+    </div>
     <nav class="navbar navbar-default">
         <div class="navabr-header">
         </div>
         <ul class="nav navabr-nav navbar-right">
         <li class="active"><a href="#">Home</a></li>
-        <li class="active"><a href="#">Login</a></li>
+        <li class="active"><a href="/Users/williambonner/Source/repos/TitleTownCatering/Client/resources/Login.html">Login</a></li>
         </ul>
         </div>
+    </nav>
+
+    <!--Shopping Cart starts here-->
+    <div class = "shoppinglist">
+    <h2><u>In Your Cart</u></h2>
+    <p>
+        <!--Note to self: try not to hard code here. The manager will add things to the list-->
+        <ul>
+            <li class="menubulletpoints">House Salad (quantity)</li>
+            <li class="menubulletpoints">Chicken Salad Sandwich</li>
+            <li class="menubulletpoints">Chocolate Chip Cookie</li> <!-- Get all menu items would go here-->
+            <li class="menubulletpoints">Veggie Burger</li>
+            <button id="checkoutbutton">Checkout</button>
+        </ul>
+    </p>
+    </div>
+
+        <!--Photos begin here-->
+        <div class="menu-display">
+            <img id = "menuitems" src = "/Users/williambonner/Source/repos/TitleTownCatering/Client/resources/images/HouseSalad.jpeg" alt="">
+            <button id="shoppingcartbutton"><img id = "shoppingcartimage" src = "/Users/williambonner/Source/repos/TitleTownCatering/Client/resources/images/ShoppingCart.png" alt=""></button>
+            <img id = "menuitems" src = "/Users/williambonner/Source/repos/TitleTownCatering/Client/resources/images/ChocChipCookie.png" alt="">
+            <button id="shoppingcartbutton"><img id = "shoppingcartimage" src = "/Users/williambonner/Source/repos/TitleTownCatering/Client/resources/images/ShoppingCart.png" alt=""></button>
+            <img id = "menuitems" src = "/Users/williambonner/Source/repos/TitleTownCatering/Client/resources/images/VeggieBurger.jpeg" alt="">
+            <button id="shoppingcartbutton"><img id = "shoppingcartimage" src = "/Users/williambonner/Source/repos/TitleTownCatering/Client/resources/images/ShoppingCart.png" alt=""></button>
+            <img id = "menuitems" src = "/Users/williambonner/Source/repos/TitleTownCatering/Client/resources/images/ChickenSandwich.png" alt="">
+            <button id="shoppingcartbutton"><img id = "shoppingcartimage" src = "/Users/williambonner/Source/repos/TitleTownCatering/Client/resources/images/ShoppingCart.png" alt=""></button>
+        </div>
+
+        <!--Other shopping cart starts here-->
+        <!--
+        <form name="ShoppingList">
+            <fieldset>
+                <legend>Shopping cart</legend>
+                <label>Item: <input type="text" name="name"></label>
+                <label>Quantity: <input type="text" name="data"></label>
+        
+                <input type="button" value="Save"   onclick="SaveItem()">
+                <input type="button" value="Update" onclick="ModifyItem()">
+                <input type="button" value="Delete" onclick="RemoveItem()">
+                <input type="button" value="Clear" onclick="ClearAll()">
+            </fieldset>
+            <div id="items_table">
+                <h2>Shopping List</h2>
+                <table id="list"></table>
+                <label><input type="button" value="Clear" onclick="ClearAll()">
+                * Delete all items</label>
+            </div>
+        </form> 
+    -->
+        
 </body>
 </html>
