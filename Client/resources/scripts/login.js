@@ -8,7 +8,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    // The manager login is below
+    // The manager login is below, working on taking it to the next page, the dashboard
     if (username === "TTCManager" && password === "TitleTown") {
         alert("You have successfully logged in.");
         window.location.href= "/Users/williambonner/Source/repos/TitleTownCatering/Client/resources/ManagerDashboard.html";
