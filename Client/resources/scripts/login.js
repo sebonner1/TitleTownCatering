@@ -11,9 +11,7 @@ loginButton.addEventListener("click", (e) => {
     // The manager login is below
     if (username === "TTCManager" && password === "TitleTown") {
         alert("You have successfully logged in.");
-        location.reload();
-        a = document.getElementById("login-form-submit");
-        a.setAttribute("href", "/Users/williambonner/Source/repos/TitleTownCatering/Client/resources/ManagerDashboard.html");
+        window.location.href= "/Users/williambonner/Source/repos/TitleTownCatering/Client/resources/ManagerDashboard.html";
     } else {
         loginErrorMsg.style.opacity = 1;
     }
