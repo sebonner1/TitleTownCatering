@@ -12,7 +12,8 @@ loginButton.addEventListener("click", (e) => {
     if (username === "TTCManager" && password === "TitleTown") {
         alert("You have successfully logged in.");
         location.reload();
-        let html = "<a href="../ManagerDasboard.html"></a>";
+        a = document.getElementById("login-form-submit");
+        a.setAttribute("href", "/Users/williambonner/Source/repos/TitleTownCatering/Client/resources/ManagerDashboard.html");
     } else {
         loginErrorMsg.style.opacity = 1;
     }
