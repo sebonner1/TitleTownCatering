@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../resources/css/login.css">
 </head>
 <body>
+    <script src="./scripts/login.js"></script>
     <nav class="navbar navbar-default">
         <div class="navabr-header">
         </div>
@@ -17,17 +18,17 @@
         </ul>
         </div>
     </nav>
-    <form action="action_page.php" method="post">
-        <div class="container">
-            <h1>Login</h1>
-          <label for="uname"><b>Username</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
-      
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required> 
-
-          <button type="submit">Login</button>
+    <main id="main-holder">
+        <h1 id="login-header">Employee Login</h1>
+        
+        <div id="login-error-msg-holder">
+          <p id="login-error-msg">You have entered an invalid username<span id="error-msg-second-line">and/or password</span></p>
         </div>
-      </form>
+        
+        <form id="login-form">
+          <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+          <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+          <input type="submit" value="Login" id="loginbutton">
+        </form>
 </body>
 </html>
