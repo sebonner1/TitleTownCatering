@@ -3,6 +3,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    font-family: "Montserrat";
 }
 
 .navbar li{
@@ -36,6 +37,7 @@ a.red {
     border-radius: 4px;
     padding: 5px;
     width: 25%;
+    font-family: "Montserrat";
 }
 
 #shoppingcartimage{
@@ -55,13 +57,16 @@ a.red {
     background-color: grey;
     text-align: center;
     padding: 10px;
+    font-family: "Montserrat";
+    height: auto;
 }
 
 
 .menubulletpoints {
     list-style-type: circle;
     float: left;
-    text-align: center;
+    text-align: left;
+    font-family: "Montserrat";
 }
 
 #checkoutbutton{
