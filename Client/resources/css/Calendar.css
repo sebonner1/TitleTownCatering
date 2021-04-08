@@ -156,4 +156,21 @@ a:-webkit-any-link{
     color: #660000;
     background: #660000;
 }
+
+.navbar{
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li{
+    display: inline;
+    padding:20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
   

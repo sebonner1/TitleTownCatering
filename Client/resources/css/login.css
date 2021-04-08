@@ -72,11 +72,11 @@ form {
       color: #990000;
   }
 
-  .navbar{
-    background-color: gray;
-    position: fixed;
-    top: 0;
-    width: 100%;
+.navbar{
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar li{
