@@ -174,3 +174,13 @@ a:-webkit-any-link{
     color: black;
 }
   
+/* Button */
+#schedulingbutton{
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: black;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
