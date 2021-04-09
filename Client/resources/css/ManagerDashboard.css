@@ -1,6 +1,44 @@
-.upcoming{
+.navbar{
     background-color: gray;
+    position: fixed;
     top: 0;
     width: 100%;
+  }
+  
+  .navbar li{
+    display: inline;
+    padding:20px;
+  }
+
+.upcoming{
+    background-color: white;
+    top: 0;
+    width: auto;
+    height: auto;
     padding: 16px;
+}
+
+html{
+    background-color: white;
+}
+
+.navbar{
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li{
+    display: inline;
+    padding:20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+a.red {
+    color: #990000;
 }
