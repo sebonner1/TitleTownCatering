@@ -13,7 +13,6 @@ loginButton.addEventListener("click", (e) => {
         alert("You have successfully logged in.");
         var currentDir = Directory.GetCurrentDirectory();
         window.location.href = "currentDir+@"/"ManagerDashboard.html"; // NOTE TO TEAM: ADD SLASH TO THE STRING
-        window.location.href= "/Users/williambonner/Source/repos/TitleTownCatering/Client/resources/ManagerDashboard.html";
     } else {
         loginErrorMsg.style.opacity = 1;
     }
