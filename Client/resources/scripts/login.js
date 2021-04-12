@@ -15,4 +15,12 @@ loginButton.addEventListener("click", (e) => {
     } else {
         loginErrorMsg.style.opacity = 1;
     }
+
+    // The manager login is below, working on taking it to the next page, the dashboard
+    if (username === "TTCEmployee" && password === "TitleTownCatering") {
+        alert("You have successfully logged in.");
+        window.location.href= "../resources/EmployeeDashboard.html";
+    } else {
+        loginErrorMsg.style.opacity = 1;
+    }
 })
