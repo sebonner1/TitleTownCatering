@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "nQTwQCGUTpXpXBsVFyuCmxMeCvMhfWchtlQ6535uz3NJ02AhldLXOh2PsnXglfC8SRw4FnuBzxNE9lx891McpA==",
+  "dgSpecHash": "j/eZVc8IrybG1XfmNNQz/O9sMlFV7jqBgs8oovGxDYYxToUTSfOr2P36674spQ0oNFkcMauB+d0VCR9odaLSiQ==",
   "success": true,
-  "projectFilePath": "/Users/williambonner/Source/repos/TitleTownCatering/TitleTownCatering.csproj",
+  "projectFilePath": "/Users/katherine/Documents/TitleTownCatering/TitleTownCatering.csproj",
   "expectedPackageFiles": [
-    "/Users/williambonner/.nuget/packages/stub.system.data.sqlite.core.netstandard/1.0.113.2/stub.system.data.sqlite.core.netstandard.1.0.113.2.nupkg.sha512",
-    "/Users/williambonner/.nuget/packages/system.data.sqlite.core/1.0.113.7/system.data.sqlite.core.1.0.113.7.nupkg.sha512"
+    "/Users/katherine/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/katherine/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/katherine/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/katherine/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/katherine/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/katherine/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
   "logs": []
 }
