@@ -1,0 +1,7 @@
+/Users/katherine/Documents/TitleTownCatering/obj/Debug/net5.0/TitleTownCatering.csprojAssemblyReference.cache
+/Users/katherine/Documents/TitleTownCatering/obj/Debug/net5.0/TitleTownCatering.GeneratedMSBuildEditorConfig.editorconfig
+/Users/katherine/Documents/TitleTownCatering/obj/Debug/net5.0/TitleTownCatering.AssemblyInfoInputs.cache
+/Users/katherine/Documents/TitleTownCatering/obj/Debug/net5.0/TitleTownCatering.AssemblyInfo.cs
+/Users/katherine/Documents/TitleTownCatering/obj/Debug/net5.0/TitleTownCatering.csproj.CoreCompileInputs.cache
+/Users/katherine/Documents/TitleTownCatering/obj/Debug/net5.0/TitleTownCatering.MvcApplicationPartsAssemblyInfo.cs
+/Users/katherine/Documents/TitleTownCatering/obj/Debug/net5.0/TitleTownCatering.MvcApplicationPartsAssemblyInfo.cache
