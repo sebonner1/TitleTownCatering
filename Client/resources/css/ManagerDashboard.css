@@ -15,6 +15,7 @@
     top: 0;
     width: auto;
     height: auto;
+    text-align: left;
     padding: 16px;
 }
 
@@ -41,4 +42,19 @@ html{
 
 a.red {
     color: #990000;
+}
+.banner{
+    background-color: #ffffff;
+    color: #990000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,fantasy;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.reportdropdown
+{
+    text-align: center;
 }

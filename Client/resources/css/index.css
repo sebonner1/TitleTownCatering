@@ -16,6 +16,11 @@
     color: black;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover /*looks crazy but only way could get Home and Login buttons same as background*/
+{
+    background-color: gray;
+}
+
 a.red {
     color: #990000;
 }
