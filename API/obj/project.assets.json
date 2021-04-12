@@ -193,19 +193,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/katherine/.nuget/packages/": {}
+    "/Users/natashaszulczewski/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/katherine/Documents/TitleTownCatering/TitleTownCatering.csproj",
-      "projectName": "TitleTownCatering",
-      "projectPath": "/Users/katherine/Documents/TitleTownCatering/TitleTownCatering.csproj",
-      "packagesPath": "/Users/katherine/.nuget/packages/",
-      "outputPath": "/Users/katherine/Documents/TitleTownCatering/obj/",
+      "projectUniqueName": "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/TitleTownCatering/API/API.csproj",
+      "projectName": "API",
+      "projectPath": "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/TitleTownCatering/API/API.csproj",
+      "packagesPath": "/Users/natashaszulczewski/.nuget/packages/",
+      "outputPath": "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/TitleTownCatering/API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/katherine/.nuget/NuGet/NuGet.Config"
+        "/Users/natashaszulczewski/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -252,7 +252,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }
