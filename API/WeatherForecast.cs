@@ -1,6 +1,6 @@
 using System;
 
-namespace TitleTownCatering
+namespace API
 {
     public class WeatherForecast
     {
