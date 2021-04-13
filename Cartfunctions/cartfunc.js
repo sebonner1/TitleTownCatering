@@ -6,8 +6,8 @@ function getCart(){
     }).then(function(json){
         let html = "<ul>";
         json.forEach((CartItem)=>{
-            html += "<li>" +CartItem.itemdescription,
-            html += "<button onclick=\"addItem("+Cart.cartid+")\">+</button>",
+            html += "<li>" +"<button onclick=\"addItem("+Cart.cartid+")\">+</button>",
+            html += CartItem.itemdescription,
             html += "<button onclick=\"deleteItem("+Cart.cartid+")\">-</button>" + "</li>"
         })
         html += "</ul>";
@@ -16,7 +16,33 @@ function getCart(){
         console.log(error);
     })
 }
-function addCart(){
-    const addCartAPIURL = "placeholder";
-    const
+function addCart(cartid){
+    const addCartAPIURL = "placeholder" + cartid;
+    console.log(cartid);
+    
+    fetch(addCartAPIURL, {
+        method: "POST",
+        headers: {
+            "Accept": 'application/json',
+            "Content-Type": 'application/json'
+        }
+    }).then((response)=>{
+        console.log(response);
+        getCart();
+    })
+}
+function delCart(cartid){
+    const delCartAPIURL = "placeholder" + cartid;
+    console.log(cartid);
+    
+    fetch(delCartAPIURL, {
+        method: "DELETE",
+        headers: {
+            "Accept": 'application/json',
+            "Content-Type": 'application/json'
+        }
+    }).then((response)=>{
+        console.log(response);
+        getCart();
+    })
 }
