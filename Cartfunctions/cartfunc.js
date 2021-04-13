@@ -1,14 +1,14 @@
 function getCart(){
-    const allCartAPIURL = "placeholder";
+    const allCartAPIURL = "https://localhost:5001/api/cartAPI";
 
     fetch(allCartAPIURL).then(function(response){
         return response.json();
     }).then(function(json){
         let html = "<ul>";
         json.forEach((CartItem)=>{
-            html += "<li>" +"<button onclick=\"addCart("+Cart.cartid+")\">+</button>",
-            html += CartItem.itemdescription,
-            html += "<button onclick=\"delCart("+Cart.cartid+")\">-</button>" + "</li>"
+            html += "<li>" +"<button onclick=\"addCart("+cart.cartid+")\">+</button>",
+            html += cart.itemName,
+            html += "<button onclick=\"delCart("+cart.cartid+")\">-</button>" + "</li>"
         })
         html += "</ul>";
         document.getElementById("cartitems").innerHTML = html;
@@ -17,11 +17,11 @@ function getCart(){
     })
 }
 function addCart(cartid){
-    const addCartAPIURL = "placeholder" + cartid;
+    const addCartAPIURL = "https://localhost:5001/api/cartAPI" + cartid;
     console.log(cartid);
     
     fetch(addCartAPIURL, {
-        method: "POST",
+        method: "PUT",
         headers: {
             "Accept": 'application/json',
             "Content-Type": 'application/json'
@@ -32,7 +32,7 @@ function addCart(cartid){
     })
 }
 function delCart(cartid){
-    const delCartAPIURL = "placeholder" + cartid;
+    const delCartAPIURL = "https://localhost:5001/api/cartAPI" + cartid;
     console.log(cartid);
     
     fetch(delCartAPIURL, {
