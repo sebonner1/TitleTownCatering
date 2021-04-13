@@ -6,9 +6,9 @@ function getCart(){
     }).then(function(json){
         let html = "<ul>";
         json.forEach((CartItem)=>{
-            html += "<li>" +"<button onclick=\"addItem("+Cart.cartid+")\">+</button>",
+            html += "<li>" +"<button onclick=\"addCart("+Cart.cartid+")\">+</button>",
             html += CartItem.itemdescription,
-            html += "<button onclick=\"deleteItem("+Cart.cartid+")\">-</button>" + "</li>"
+            html += "<button onclick=\"delCart("+Cart.cartid+")\">-</button>" + "</li>"
         })
         html += "</ul>";
         document.getElementById("cartitems").innerHTML = html;

@@ -7,7 +7,7 @@ namespace TitleTownCatering.Models
         public void DeleteMenuItem(int itemID)
         {
             string currentDir = Directory.GetCurrentDirectory();
-            string cs = "URI=file:"+currentDir+@"/menu.db";
+            string cs = @"URI=file:"+currentDir+"/menu.db";
             using var con = new SQLiteConnection(cs);
             con.Open();
 
