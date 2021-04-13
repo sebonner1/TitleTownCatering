@@ -7,7 +7,7 @@ function getCart(){
         let html = "<ul>";
         json.forEach((CartItem)=>{
             html += "<li>" +CartItem.itemdescription,
-            html += "<button onclick=\"addItem("+CartItem.cartid+",\'"+ CartItem.itemdescription+"')\">+</button>",
+            html += "<button onclick=\"addItem("+Cart.cartid+")\">+</button>",
             html += "<button onclick=\"deleteItem("+Cart.cartid+")\">-</button>" + "</li>"
         })
         html += "</ul>";
@@ -15,4 +15,8 @@ function getCart(){
     }).catch(function(error){
         console.log(error);
     })
+}
+function addCart(){
+    const addCartAPIURL = "placeholder";
+    const
 }
