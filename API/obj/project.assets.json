@@ -193,11 +193,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD:obj/project.assets.json
     "/Users/williambonner/.nuget/packages/": {}
+=======
+    "/Users/natashaszulczewski/.nuget/packages/": {}
+>>>>>>> 0b7f236f5c31b2f039186c77f29459b047f78657:API/obj/project.assets.json
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD:obj/project.assets.json
       "projectUniqueName": "/Users/williambonner/Source/repos/TitleTownCatering/TitleTownCatering.csproj",
       "projectName": "TitleTownCatering",
       "projectPath": "/Users/williambonner/Source/repos/TitleTownCatering/TitleTownCatering.csproj",
@@ -206,6 +211,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/williambonner/.nuget/NuGet/NuGet.Config"
+=======
+      "projectUniqueName": "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/TitleTownCatering/API/API.csproj",
+      "projectName": "API",
+      "projectPath": "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/TitleTownCatering/API/API.csproj",
+      "packagesPath": "/Users/natashaszulczewski/.nuget/packages/",
+      "outputPath": "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/TitleTownCatering/API/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/natashaszulczewski/.nuget/NuGet/NuGet.Config"
+>>>>>>> 0b7f236f5c31b2f039186c77f29459b047f78657:API/obj/project.assets.json
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -232,7 +247,29 @@
             "version": "[5.6.3, )"
           }
         },
+<<<<<<< HEAD:obj/project.assets.json
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+=======
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+>>>>>>> 0b7f236f5c31b2f039186c77f29459b047f78657:API/obj/project.assets.json
       }
     }
   }
